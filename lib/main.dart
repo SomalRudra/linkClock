@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:linkClock/Navigation/routeConstants.dart';
 import 'package:linkClock/listOfLinks.dart';
+import 'package:linkClock/splashScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,15 +14,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'linkClock',
       debugShowCheckedModeBanner: false,
-      initialRoute: rListOfLinks,
+      initialRoute: rSplash,
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        // This makes the visual density adapt to the platform that you run
-        // the app on. For desktop platforms, the controls will be smaller and
-        // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: ListOfLinks(),
+      home: SplashscreenLC(),
     );
   }
 }

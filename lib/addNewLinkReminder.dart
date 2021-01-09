@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:linkClock/appbar.dart';
 
 class AddNewLinkReminder extends StatelessWidget {
   @override
@@ -28,6 +29,7 @@ class AddNewLinkReminder extends StatelessWidget {
           )
         ],
       )),
+      appBar: BaseAppBar(title: Text('Add'), appBar: AppBar(), state: true),
     );
   }
 }

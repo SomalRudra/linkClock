@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:linkClock/Navigation/routeConstants.dart';
-import 'package:linkClock/listOfLinks.dart';
+// import 'package:linkClock/listOfLinks.dart';
 import 'package:linkClock/splashScreen.dart';
 
 void main() {
